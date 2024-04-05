@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     }
 
     void mover(){
-        rig.velocity = new Vector2(Input.GetAxis("Horizontal") * Speed, rig.velocity.y);
+        rig.velocity = new Vector2(Input.GetAxis("HorizontalManaSama") * Speed, rig.velocity.y);
 
     }
 
