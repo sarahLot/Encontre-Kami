@@ -6,9 +6,11 @@ public class Player : MonoBehaviour
 {
 
     Rigidbody2D rig;
-    public int Speed = 5;
-    public int Jump = 4;
-    bool chao, puloDuplo;
+   [Range(1,6)] public int Speed = 5;
+   [SerializeField] private string nomeDoPlayer;
+     public int Jump = 4;
+    private bool chao, puloDuplo;
+    
 
     // Start is called before the first frame update
 

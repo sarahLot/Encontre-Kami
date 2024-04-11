@@ -7,6 +7,7 @@ public class PlatA : MonoBehaviour
     public Transform posA, posB;
     public int speed;
     Vector2 targetPos;
+    [SerializeField] private string nome;
 
     void Start()
     {
